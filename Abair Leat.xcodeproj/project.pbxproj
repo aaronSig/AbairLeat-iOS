@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23D3A4261BFE3E8F0005521F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D3A4251BFE3E8F0005521F /* AppDelegate.swift */; };
+		23D3A4281BFE3E8F0005521F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D3A4271BFE3E8F0005521F /* ViewController.swift */; };
+		23D3A42B1BFE3E8F0005521F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D3A4291BFE3E8F0005521F /* Main.storyboard */; };
+		23D3A42D1BFE3E8F0005521F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D3A42C1BFE3E8F0005521F /* Assets.xcassets */; };
+		23D3A4301BFE3E8F0005521F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D3A42E1BFE3E8F0005521F /* LaunchScreen.storyboard */; };
+		23D3A43B1BFE3E8F0005521F /* Abair_LeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D3A43A1BFE3E8F0005521F /* Abair_LeatTests.swift */; };
+		23D3A4461BFE3E8F0005521F /* Abair_LeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D3A4451BFE3E8F0005521F /* Abair_LeatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23D3A4371BFE3E8F0005521F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23D3A41A1BFE3E8F0005521F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D3A4211BFE3E8F0005521F;
+			remoteInfo = "Abair Leat";
+		};
+		23D3A4421BFE3E8F0005521F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23D3A41A1BFE3E8F0005521F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D3A4211BFE3E8F0005521F;
+			remoteInfo = "Abair Leat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23D3A4221BFE3E8F0005521F /* Abair Leat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abair Leat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D3A4251BFE3E8F0005521F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23D3A4271BFE3E8F0005521F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23D3A42A1BFE3E8F0005521F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23D3A42C1BFE3E8F0005521F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23D3A42F1BFE3E8F0005521F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23D3A4311BFE3E8F0005521F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D3A4361BFE3E8F0005521F /* Abair LeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abair LeatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D3A43A1BFE3E8F0005521F /* Abair_LeatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abair_LeatTests.swift; sourceTree = "<group>"; };
+		23D3A43C1BFE3E8F0005521F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D3A4411BFE3E8F0005521F /* Abair LeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abair LeatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D3A4451BFE3E8F0005521F /* Abair_LeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abair_LeatUITests.swift; sourceTree = "<group>"; };
+		23D3A4471BFE3E8F0005521F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23D3A41F1BFE3E8F0005521F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D3A4331BFE3E8F0005521F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D3A43E1BFE3E8F0005521F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23D3A4191BFE3E8F0005521F = {
+			isa = PBXGroup;
+			children = (
+				23D3A4241BFE3E8F0005521F /* Abair Leat */,
+				23D3A4391BFE3E8F0005521F /* Abair LeatTests */,
+				23D3A4441BFE3E8F0005521F /* Abair LeatUITests */,
+				23D3A4231BFE3E8F0005521F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23D3A4231BFE3E8F0005521F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23D3A4221BFE3E8F0005521F /* Abair Leat.app */,
+				23D3A4361BFE3E8F0005521F /* Abair LeatTests.xctest */,
+				23D3A4411BFE3E8F0005521F /* Abair LeatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23D3A4241BFE3E8F0005521F /* Abair Leat */ = {
+			isa = PBXGroup;
+			children = (
+				23D3A4251BFE3E8F0005521F /* AppDelegate.swift */,
+				23D3A4271BFE3E8F0005521F /* ViewController.swift */,
+				23D3A4291BFE3E8F0005521F /* Main.storyboard */,
+				23D3A42C1BFE3E8F0005521F /* Assets.xcassets */,
+				23D3A42E1BFE3E8F0005521F /* LaunchScreen.storyboard */,
+				23D3A4311BFE3E8F0005521F /* Info.plist */,
+			);
+			path = "Abair Leat";
+			sourceTree = "<group>";
+		};
+		23D3A4391BFE3E8F0005521F /* Abair LeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				23D3A43A1BFE3E8F0005521F /* Abair_LeatTests.swift */,
+				23D3A43C1BFE3E8F0005521F /* Info.plist */,
+			);
+			path = "Abair LeatTests";
+			sourceTree = "<group>";
+		};
+		23D3A4441BFE3E8F0005521F /* Abair LeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23D3A4451BFE3E8F0005521F /* Abair_LeatUITests.swift */,
+				23D3A4471BFE3E8F0005521F /* Info.plist */,
+			);
+			path = "Abair LeatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23D3A4211BFE3E8F0005521F /* Abair Leat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D3A44A1BFE3E8F0005521F /* Build configuration list for PBXNativeTarget "Abair Leat" */;
+			buildPhases = (
+				23D3A41E1BFE3E8F0005521F /* Sources */,
+				23D3A41F1BFE3E8F0005521F /* Frameworks */,
+				23D3A4201BFE3E8F0005521F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Abair Leat";
+			productName = "Abair Leat";
+			productReference = 23D3A4221BFE3E8F0005521F /* Abair Leat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23D3A4351BFE3E8F0005521F /* Abair LeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D3A44D1BFE3E8F0005521F /* Build configuration list for PBXNativeTarget "Abair LeatTests" */;
+			buildPhases = (
+				23D3A4321BFE3E8F0005521F /* Sources */,
+				23D3A4331BFE3E8F0005521F /* Frameworks */,
+				23D3A4341BFE3E8F0005521F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D3A4381BFE3E8F0005521F /* PBXTargetDependency */,
+			);
+			name = "Abair LeatTests";
+			productName = "Abair LeatTests";
+			productReference = 23D3A4361BFE3E8F0005521F /* Abair LeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23D3A4401BFE3E8F0005521F /* Abair LeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D3A4501BFE3E8F0005521F /* Build configuration list for PBXNativeTarget "Abair LeatUITests" */;
+			buildPhases = (
+				23D3A43D1BFE3E8F0005521F /* Sources */,
+				23D3A43E1BFE3E8F0005521F /* Frameworks */,
+				23D3A43F1BFE3E8F0005521F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D3A4431BFE3E8F0005521F /* PBXTargetDependency */,
+			);
+			name = "Abair LeatUITests";
+			productName = "Abair LeatUITests";
+			productReference = 23D3A4411BFE3E8F0005521F /* Abair LeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23D3A41A1BFE3E8F0005521F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Superpixel;
+				TargetAttributes = {
+					23D3A4211BFE3E8F0005521F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					23D3A4351BFE3E8F0005521F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 23D3A4211BFE3E8F0005521F;
+					};
+					23D3A4401BFE3E8F0005521F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 23D3A4211BFE3E8F0005521F;
+					};
+				};
+			};
+			buildConfigurationList = 23D3A41D1BFE3E8F0005521F /* Build configuration list for PBXProject "Abair Leat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23D3A4191BFE3E8F0005521F;
+			productRefGroup = 23D3A4231BFE3E8F0005521F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23D3A4211BFE3E8F0005521F /* Abair Leat */,
+				23D3A4351BFE3E8F0005521F /* Abair LeatTests */,
+				23D3A4401BFE3E8F0005521F /* Abair LeatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23D3A4201BFE3E8F0005521F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D3A4301BFE3E8F0005521F /* LaunchScreen.storyboard in Resources */,
+				23D3A42D1BFE3E8F0005521F /* Assets.xcassets in Resources */,
+				23D3A42B1BFE3E8F0005521F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D3A4341BFE3E8F0005521F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D3A43F1BFE3E8F0005521F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D3A41E1BFE3E8F0005521F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D3A4281BFE3E8F0005521F /* ViewController.swift in Sources */,
+				23D3A4261BFE3E8F0005521F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D3A4321BFE3E8F0005521F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D3A43B1BFE3E8F0005521F /* Abair_LeatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D3A43D1BFE3E8F0005521F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D3A4461BFE3E8F0005521F /* Abair_LeatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23D3A4381BFE3E8F0005521F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D3A4211BFE3E8F0005521F /* Abair Leat */;
+			targetProxy = 23D3A4371BFE3E8F0005521F /* PBXContainerItemProxy */;
+		};
+		23D3A4431BFE3E8F0005521F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D3A4211BFE3E8F0005521F /* Abair Leat */;
+			targetProxy = 23D3A4421BFE3E8F0005521F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23D3A4291BFE3E8F0005521F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23D3A42A1BFE3E8F0005521F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23D3A42E1BFE3E8F0005521F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23D3A42F1BFE3E8F0005521F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23D3A4481BFE3E8F0005521F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23D3A4491BFE3E8F0005521F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23D3A44B1BFE3E8F0005521F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Abair Leat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superpixel.lurgan.Abair-Leat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23D3A44C1BFE3E8F0005521F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Abair Leat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superpixel.lurgan.Abair-Leat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23D3A44E1BFE3E8F0005521F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Abair LeatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superpixel.lurgan.Abair-LeatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abair Leat.app/Abair Leat";
+			};
+			name = Debug;
+		};
+		23D3A44F1BFE3E8F0005521F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Abair LeatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superpixel.lurgan.Abair-LeatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abair Leat.app/Abair Leat";
+			};
+			name = Release;
+		};
+		23D3A4511BFE3E8F0005521F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Abair LeatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superpixel.lurgan.Abair-LeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Abair Leat";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		23D3A4521BFE3E8F0005521F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Abair LeatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superpixel.lurgan.Abair-LeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Abair Leat";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23D3A41D1BFE3E8F0005521F /* Build configuration list for PBXProject "Abair Leat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D3A4481BFE3E8F0005521F /* Debug */,
+				23D3A4491BFE3E8F0005521F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D3A44A1BFE3E8F0005521F /* Build configuration list for PBXNativeTarget "Abair Leat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D3A44B1BFE3E8F0005521F /* Debug */,
+				23D3A44C1BFE3E8F0005521F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23D3A44D1BFE3E8F0005521F /* Build configuration list for PBXNativeTarget "Abair LeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D3A44E1BFE3E8F0005521F /* Debug */,
+				23D3A44F1BFE3E8F0005521F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23D3A4501BFE3E8F0005521F /* Build configuration list for PBXNativeTarget "Abair LeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D3A4511BFE3E8F0005521F /* Debug */,
+				23D3A4521BFE3E8F0005521F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23D3A41A1BFE3E8F0005521F /* Project object */;
+}
