@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23215FF41BFE4535001B319A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23215FF31BFE4535001B319A /* LoginViewController.swift */; };
+		233878E61C15ED3F007FD9BE /* FirebaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233878E51C15ED3F007FD9BE /* FirebaseTableViewController.swift */; };
+		238F8DFD1C0CBCD000B20C07 /* NSDate-Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F8DFC1C0CBCD000B20C07 /* NSDate-Extenstions.swift */; };
+		238F8E011C0D079600B20C07 /* ChatsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F8E001C0D079600B20C07 /* ChatsListTableViewController.swift */; };
+		23CFB2B41C0D0A44002F89BE /* GroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CFB2B31C0D0A44002F89BE /* GroupsTableViewCell.swift */; };
+		23CFB2B61C0D0A55002F89BE /* OneToOneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CFB2B51C0D0A55002F89BE /* OneToOneTableViewCell.swift */; };
+		23CFB2B81C0D0F0D002F89BE /* ConversationMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CFB2B71C0D0F0D002F89BE /* ConversationMetadata.swift */; };
+		23CFB2BA1C0DBFC8002F89BE /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CFB2B91C0DBFC8002F89BE /* UIColorExtension.swift */; };
 		23D3A4261BFE3E8F0005521F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D3A4251BFE3E8F0005521F /* AppDelegate.swift */; };
-		23D3A4281BFE3E8F0005521F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D3A4271BFE3E8F0005521F /* ViewController.swift */; };
 		23D3A42B1BFE3E8F0005521F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D3A4291BFE3E8F0005521F /* Main.storyboard */; };
 		23D3A42D1BFE3E8F0005521F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D3A42C1BFE3E8F0005521F /* Assets.xcassets */; };
 		23D3A4301BFE3E8F0005521F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D3A42E1BFE3E8F0005521F /* LaunchScreen.storyboard */; };
 		23D3A43B1BFE3E8F0005521F /* Abair_LeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D3A43A1BFE3E8F0005521F /* Abair_LeatTests.swift */; };
 		23D3A4461BFE3E8F0005521F /* Abair_LeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D3A4451BFE3E8F0005521F /* Abair_LeatUITests.swift */; };
+		23EA622D1C165E280012C694 /* LinkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA622C1C165E280012C694 /* LinkUtils.swift */; };
+		23EE5EF81C088E1400988427 /* ContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE5EF71C088E1400988427 /* ContactsController.swift */; };
+		23EE5EFA1C088E5100988427 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE5EF91C088E5100988427 /* SettingsController.swift */; };
+		23EE5EFE1C088EB300988427 /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE5EFD1C088EB300988427 /* ConversationController.swift */; };
+		23EE5F001C08917200988427 /* ContactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE5EFF1C08917200988427 /* ContactsService.swift */; };
+		23EE5F031C08919900988427 /* ConversationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE5F021C08919900988427 /* ConversationsService.swift */; };
+		23EE5F071C0892A200988427 /* AbairLeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE5F061C0892A200988427 /* AbairLeat.swift */; };
+		23EE5F091C08933D00988427 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE5F081C08933D00988427 /* ProfileService.swift */; };
+		23EE5F0B1C08937700988427 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE5F0A1C08937700988427 /* Profile.swift */; };
+		23EE5F0E1C08BAB700988427 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE5F0D1C08BAB700988427 /* Message.swift */; };
+		23EE5F141C08CF6A00988427 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE5F131C08CF6A00988427 /* ContactTableViewCell.swift */; };
+		E4D7719ED59ADF009CAAA050 /* Pods_Abair_Leat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0252F89EBE7149EA9F0A79 /* Pods_Abair_Leat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +53,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23215FF31BFE4535001B319A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "View Controllers/LoginViewController.swift"; sourceTree = "<group>"; };
+		233878E51C15ED3F007FD9BE /* FirebaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirebaseTableViewController.swift; path = "View Controllers/FirebaseTableViewController.swift"; sourceTree = "<group>"; };
+		238F8DFC1C0CBCD000B20C07 /* NSDate-Extenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate-Extenstions.swift"; path = "Util/NSDate-Extenstions.swift"; sourceTree = "<group>"; };
+		238F8E001C0D079600B20C07 /* ChatsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatsListTableViewController.swift; path = "View Controllers/ChatsListTableViewController.swift"; sourceTree = "<group>"; };
+		23CFB2B31C0D0A44002F89BE /* GroupsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupsTableViewCell.swift; path = "Table Cells/GroupsTableViewCell.swift"; sourceTree = "<group>"; };
+		23CFB2B51C0D0A55002F89BE /* OneToOneTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OneToOneTableViewCell.swift; path = "Table Cells/OneToOneTableViewCell.swift"; sourceTree = "<group>"; };
+		23CFB2B71C0D0F0D002F89BE /* ConversationMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversationMetadata.swift; path = Domain/ConversationMetadata.swift; sourceTree = "<group>"; };
+		23CFB2B91C0DBFC8002F89BE /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		23D3A4221BFE3E8F0005521F /* Abair Leat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abair Leat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D3A4251BFE3E8F0005521F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23D3A4271BFE3E8F0005521F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23D3A42A1BFE3E8F0005521F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23D3A42C1BFE3E8F0005521F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23D3A42F1BFE3E8F0005521F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,20 @@
 		23D3A4411BFE3E8F0005521F /* Abair LeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abair LeatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D3A4451BFE3E8F0005521F /* Abair_LeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abair_LeatUITests.swift; sourceTree = "<group>"; };
 		23D3A4471BFE3E8F0005521F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EA622C1C165E280012C694 /* LinkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkUtils.swift; path = Util/LinkUtils.swift; sourceTree = "<group>"; };
+		23EE5EF71C088E1400988427 /* ContactsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsController.swift; path = "View Controllers/ContactsController.swift"; sourceTree = "<group>"; };
+		23EE5EF91C088E5100988427 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsController.swift; path = "View Controllers/SettingsController.swift"; sourceTree = "<group>"; };
+		23EE5EFD1C088EB300988427 /* ConversationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversationController.swift; path = "View Controllers/ConversationController.swift"; sourceTree = "<group>"; };
+		23EE5EFF1C08917200988427 /* ContactsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsService.swift; path = API/ContactsService.swift; sourceTree = "<group>"; };
+		23EE5F021C08919900988427 /* ConversationsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversationsService.swift; path = API/ConversationsService.swift; sourceTree = "<group>"; };
+		23EE5F061C0892A200988427 /* AbairLeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbairLeat.swift; path = API/AbairLeat.swift; sourceTree = "<group>"; };
+		23EE5F081C08933D00988427 /* ProfileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileService.swift; path = "View Controllers/ProfileService.swift"; sourceTree = "<group>"; };
+		23EE5F0A1C08937700988427 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Domain/Profile.swift; sourceTree = "<group>"; };
+		23EE5F0D1C08BAB700988427 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Domain/Message.swift; sourceTree = "<group>"; };
+		23EE5F131C08CF6A00988427 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactTableViewCell.swift; path = "Table Cells/ContactTableViewCell.swift"; sourceTree = "<group>"; };
+		5AA1063AB5B98B32123A842B /* Pods-Abair Leat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abair Leat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abair Leat/Pods-Abair Leat.debug.xcconfig"; sourceTree = "<group>"; };
+		BCBCB21F6ED85A568CD71D1D /* Pods-Abair Leat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abair Leat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abair Leat/Pods-Abair Leat.release.xcconfig"; sourceTree = "<group>"; };
+		CD0252F89EBE7149EA9F0A79 /* Pods_Abair_Leat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abair_Leat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D7719ED59ADF009CAAA050 /* Pods_Abair_Leat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +115,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23215FF51BFE4555001B319A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23215FF31BFE4535001B319A /* LoginViewController.swift */,
+				23EE5EF91C088E5100988427 /* SettingsController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		238F8DFB1C0C6ED700B20C07 /* Conversations */ = {
+			isa = PBXGroup;
+			children = (
+				23EE5EFD1C088EB300988427 /* ConversationController.swift */,
+			);
+			name = Conversations;
+			sourceTree = "<group>";
+		};
+		238F8DFE1C0CBCD300B20C07 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				23CFB2B91C0DBFC8002F89BE /* UIColorExtension.swift */,
+				238F8DFC1C0CBCD000B20C07 /* NSDate-Extenstions.swift */,
+				23EA622C1C165E280012C694 /* LinkUtils.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		238F8DFF1C0D077100B20C07 /* Chats List */ = {
+			isa = PBXGroup;
+			children = (
+				238F8E001C0D079600B20C07 /* ChatsListTableViewController.swift */,
+				23CFB2B31C0D0A44002F89BE /* GroupsTableViewCell.swift */,
+				23CFB2B51C0D0A55002F89BE /* OneToOneTableViewCell.swift */,
+			);
+			name = "Chats List";
+			sourceTree = "<group>";
+		};
 		23D3A4191BFE3E8F0005521F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +159,8 @@
 				23D3A4391BFE3E8F0005521F /* Abair LeatTests */,
 				23D3A4441BFE3E8F0005521F /* Abair LeatUITests */,
 				23D3A4231BFE3E8F0005521F /* Products */,
+				6C7DA2895A9CADF8351646C6 /* Pods */,
+				7B837BE0D0D0B3959EC00DC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +178,15 @@
 			isa = PBXGroup;
 			children = (
 				23D3A4251BFE3E8F0005521F /* AppDelegate.swift */,
-				23D3A4271BFE3E8F0005521F /* ViewController.swift */,
 				23D3A4291BFE3E8F0005521F /* Main.storyboard */,
+				233878E51C15ED3F007FD9BE /* FirebaseTableViewController.swift */,
+				23EE5F151C08CF6C00988427 /* Contacts */,
+				238F8DFF1C0D077100B20C07 /* Chats List */,
+				238F8DFB1C0C6ED700B20C07 /* Conversations */,
+				23215FF51BFE4555001B319A /* View Controllers */,
+				23EE5F0C1C08937A00988427 /* Domain */,
+				23EE5F011C08917A00988427 /* API */,
+				238F8DFE1C0CBCD300B20C07 /* Util */,
 				23D3A42C1BFE3E8F0005521F /* Assets.xcassets */,
 				23D3A42E1BFE3E8F0005521F /* LaunchScreen.storyboard */,
 				23D3A4311BFE3E8F0005521F /* Info.plist */,
@@ -125,6 +212,53 @@
 			path = "Abair LeatUITests";
 			sourceTree = "<group>";
 		};
+		23EE5F011C08917A00988427 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				23EE5EFF1C08917200988427 /* ContactsService.swift */,
+				23EE5F081C08933D00988427 /* ProfileService.swift */,
+				23EE5F021C08919900988427 /* ConversationsService.swift */,
+				23EE5F061C0892A200988427 /* AbairLeat.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		23EE5F0C1C08937A00988427 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				23EE5F0D1C08BAB700988427 /* Message.swift */,
+				23EE5F0A1C08937700988427 /* Profile.swift */,
+				23CFB2B71C0D0F0D002F89BE /* ConversationMetadata.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		23EE5F151C08CF6C00988427 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				23EE5EF71C088E1400988427 /* ContactsController.swift */,
+				23EE5F131C08CF6A00988427 /* ContactTableViewCell.swift */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		6C7DA2895A9CADF8351646C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1063AB5B98B32123A842B /* Pods-Abair Leat.debug.xcconfig */,
+				BCBCB21F6ED85A568CD71D1D /* Pods-Abair Leat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B837BE0D0D0B3959EC00DC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD0252F89EBE7149EA9F0A79 /* Pods_Abair_Leat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23D3A44A1BFE3E8F0005521F /* Build configuration list for PBXNativeTarget "Abair Leat" */;
 			buildPhases = (
+				B1516D1B2CB203E356FEBDDC /* Check Pods Manifest.lock */,
 				23D3A41E1BFE3E8F0005521F /* Sources */,
 				23D3A41F1BFE3E8F0005521F /* Frameworks */,
 				23D3A4201BFE3E8F0005521F /* Resources */,
+				AA01563E3F1AEBBEC1BBDCF7 /* Embed Pods Frameworks */,
+				69C5723551997CB7500AF039 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +330,12 @@
 				TargetAttributes = {
 					23D3A4211BFE3E8F0005521F = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 2K2HLXM6SK;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					23D3A4351BFE3E8F0005521F = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -251,13 +394,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69C5723551997CB7500AF039 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abair Leat/Pods-Abair Leat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA01563E3F1AEBBEC1BBDCF7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abair Leat/Pods-Abair Leat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1516D1B2CB203E356FEBDDC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23D3A41E1BFE3E8F0005521F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23D3A4281BFE3E8F0005521F /* ViewController.swift in Sources */,
+				23CFB2B61C0D0A55002F89BE /* OneToOneTableViewCell.swift in Sources */,
+				23EA622D1C165E280012C694 /* LinkUtils.swift in Sources */,
+				23EE5F141C08CF6A00988427 /* ContactTableViewCell.swift in Sources */,
+				238F8E011C0D079600B20C07 /* ChatsListTableViewController.swift in Sources */,
+				23EE5F001C08917200988427 /* ContactsService.swift in Sources */,
+				23EE5EFA1C088E5100988427 /* SettingsController.swift in Sources */,
+				23CFB2BA1C0DBFC8002F89BE /* UIColorExtension.swift in Sources */,
+				23EE5EF81C088E1400988427 /* ContactsController.swift in Sources */,
+				23EE5F071C0892A200988427 /* AbairLeat.swift in Sources */,
+				238F8DFD1C0CBCD000B20C07 /* NSDate-Extenstions.swift in Sources */,
+				23EE5F031C08919900988427 /* ConversationsService.swift in Sources */,
+				23215FF41BFE4535001B319A /* LoginViewController.swift in Sources */,
+				23EE5EFE1C088EB300988427 /* ConversationController.swift in Sources */,
+				23CFB2B81C0D0F0D002F89BE /* ConversationMetadata.swift in Sources */,
+				23CFB2B41C0D0A44002F89BE /* GroupsTableViewCell.swift in Sources */,
+				23EE5F0B1C08937700988427 /* Profile.swift in Sources */,
+				23EE5F0E1C08BAB700988427 /* Message.swift in Sources */,
 				23D3A4261BFE3E8F0005521F /* AppDelegate.swift in Sources */,
+				233878E61C15ED3F007FD9BE /* FirebaseTableViewController.swift in Sources */,
+				23EE5F091C08933D00988427 /* ProfileService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +582,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -395,23 +604,33 @@
 		};
 		23D3A44B1BFE3E8F0005521F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA1063AB5B98B32123A842B /* Pods-Abair Leat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Micheal O Foighil (3852U66VMG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Micheal O Foighil (3852U66VMG)";
 				INFOPLIST_FILE = "Abair Leat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.superpixel.lurgan.Abair-Leat";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lurgan.Abair-Leat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		23D3A44C1BFE3E8F0005521F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCBCB21F6ED85A568CD71D1D /* Pods-Abair Leat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Colaiste Lurgan Teoranta (2K2HLXM6SK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Colaiste Lurgan Teoranta (2K2HLXM6SK)";
 				INFOPLIST_FILE = "Abair Leat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.superpixel.lurgan.Abair-Leat";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lurgan.Abair-Leat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +701,7 @@
 				23D3A44C1BFE3E8F0005521F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23D3A44D1BFE3E8F0005521F /* Build configuration list for PBXNativeTarget "Abair LeatTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +710,7 @@
 				23D3A44F1BFE3E8F0005521F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23D3A4501BFE3E8F0005521F /* Build configuration list for PBXNativeTarget "Abair LeatUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +719,7 @@
 				23D3A4521BFE3E8F0005521F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
