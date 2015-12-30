@@ -46,7 +46,7 @@ class Profile {
     }
     
     func initials() -> String {
-        return "\(firstName.characters.first)\(lastName.characters.first)"
+        return "\(firstName.characters.first!)\(lastName.characters.first!)"
     }
     
     func toDict() -> NSDictionary {

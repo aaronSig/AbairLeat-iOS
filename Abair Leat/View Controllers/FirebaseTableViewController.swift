@@ -16,7 +16,7 @@ protocol FirebaseTableViewControllerDatasourceDelegate {
 }
 
 // A controller handy for working with Firebase 1 dimensional arrays of data.
-// Supports downloading, adding and deleting items. Not move.
+// Supports downloading, adding, moving and deleting items.
 class FirebaseTableViewController: UITableViewController {
 
     var firebaseRef: FQuery? {
@@ -28,7 +28,6 @@ class FirebaseTableViewController: UITableViewController {
     }
     
     var datasourceDelegate: FirebaseTableViewControllerDatasourceDelegate?
-    
     var items = [FDataSnapshot]()
     var userItems = [Any]()
     

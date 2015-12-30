@@ -33,7 +33,7 @@ class ConversationController: JSQMessagesViewController {
         didSet {
             if let conversation = conversationId {
                 self.firebase = AbairLeat.shared.conversations.firebaseRefForConversation(conversation)
-                self.firebase!.keepSynced(true)
+                self.firebase!.keepSynced(false)
                 
                 //only show the progress if its taking longer than a second to load
                 NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "showProgress", userInfo: nil, repeats: false)
@@ -200,12 +200,13 @@ class ConversationController: JSQMessagesViewController {
         return self.messages.count
     }
     
-    override func collectionView(collectionView: JSQMessagesCollectionView!, attributedTextForMessageBubbleTopLabelAtIndexPath indexPath: NSIndexPath!) -> NSAttributedString! {
+    override func collectionView(collectionView: JSQMessagesCollectionView!, attributedTextForCellTopLabelAtIndexPath indexPath: NSIndexPath!) -> NSAttributedString! {
         let message = self.messages[indexPath.item]
-        return JSQMessagesTimestampFormatter.sharedFormatter().attributedTimestampForDate(message.date)
+        let timestamp = JSQMessagesTimestampFormatter.sharedFormatter().attributedTimestampForDate(message.date)
+        return timestamp
     }
     
-    override func collectionView(collectionView: JSQMessagesCollectionView!, layout collectionViewLayout: JSQMessagesCollectionViewFlowLayout!, heightForMessageBubbleTopLabelAtIndexPath indexPath: NSIndexPath!) -> CGFloat {
+    override func collectionView(collectionView: JSQMessagesCollectionView!, layout collectionViewLayout: JSQMessagesCollectionViewFlowLayout!, heightForCellTopLabelAtIndexPath indexPath: NSIndexPath!) -> CGFloat {
         return kJSQMessagesCollectionViewCellLabelHeightDefault;
     }
     
